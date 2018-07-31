@@ -82,7 +82,7 @@
             <div class="col-12 col-sm-11 offset-sm-1">
                  <div class="btn-group" role="group">
                     <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
-                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+                    <button id="buttonTest" role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</button>
                     <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
                 </div>
             </div>
@@ -207,6 +207,14 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+
+
+        $("#buttonTest").on( "click", function( event ) {
+            console.log("press buttonTest");
+        });
+    </script>
 </body>
 
 </html>
