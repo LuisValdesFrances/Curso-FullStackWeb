@@ -31,6 +31,12 @@ body {
 .navbar-dark {
   background-color: #512DA8; }
 
+.reserveButton {
+  padding: 6px 60px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffb84d; }
+
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;

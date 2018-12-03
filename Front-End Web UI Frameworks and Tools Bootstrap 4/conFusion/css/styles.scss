@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$buttonColor-pale: #ffb84d;
 
 $carousel-item-height: 300px;
 
@@ -47,6 +48,13 @@ body{
 
 .navbar-dark {
      background-color: $background-dark;
+}
+
+.reserveButton {
+    padding: 6px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: $buttonColor-pale;
 }
 
 .tab-content {
